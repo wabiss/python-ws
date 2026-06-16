@@ -3,7 +3,7 @@ name: Streamlit Keep Alive
 on:
   schedule:
     # 每 10 小时自动运行一次，确保在 12 小时休眠到期前强行唤醒并重构容器
-    - cron: '0 */10 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch: # 允许您在 GitHub 页面上手动点击运行测试
 
 permissions:
